@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/mitch-rickman/presentations/issues"
   },
-  "homepage": "https://github.com/mitch-rickman/presentations"
+  "homepage": "https://github.com/mitch-rickman/presentations",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jade": "^1.1.0",
+    "require-dir": "^0.3.0"
+  }
 }
