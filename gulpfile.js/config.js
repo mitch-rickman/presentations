@@ -10,5 +10,10 @@ module.exports = {
     sass: {
         src: [src + 'sass/**/*.scss'],
         build: build + 'css'
+    },
+
+    js: {
+        src: [src + 'js/**/*.js'],
+        build: build + 'js'
     }
 }

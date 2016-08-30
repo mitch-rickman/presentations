@@ -2,7 +2,7 @@ function Test( amount ) {
     this.amount = amount;
 };
 
-Test.prototype.getAmount = function() {
+Test.prototype.getAmount = () => {
     return this.amount;
 }
 

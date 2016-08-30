@@ -1,5 +1,5 @@
-var Test = require('./modules/test');
+let Test = require('./modules/test');
 
-var helloWorld = new Test( 7 );
+let helloWorld = new Test( 7 );
 
 console.log( helloWorld.getAmount() );
