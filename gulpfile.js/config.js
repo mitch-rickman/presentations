@@ -3,8 +3,8 @@ var build = './build/';
 
 module.exports = {
     jade: {
-        src: ['./src/templates/*.jade'],
-        build: './build/'
+        src: [ src + 'templates/*.jade'],
+        build: build
     },
 
     sass: {
@@ -15,5 +15,11 @@ module.exports = {
     js: {
         src: [src + 'js/**/*.js'],
         build: build + 'js'
+    },
+
+    api: {
+        src: [src + 'api/**/*.js'],
+        build: build + 'api',
+        buildName: 'api.js'
     }
 }
