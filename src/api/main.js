@@ -1,6 +1,8 @@
-// api file
-var PostTest = require('./endpoints/post/post-test');
+var express = require('express');
+var app = express();
 
-var t = new PostTest( "working" );
+app.use( express.static( __dirname + '/public' ) );
 
-console.log( t.getS(); );
+app.listen(3000, () => {
+    console.log('example working on 3000');
+});

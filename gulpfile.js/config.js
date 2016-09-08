@@ -4,22 +4,22 @@ var build = './build/';
 module.exports = {
     jade: {
         src: [ src + 'templates/*.jade'],
-        build: build
+        build: build + 'public'
     },
 
     sass: {
         src: [src + 'sass/**/*.scss'],
-        build: build + 'css'
+        build: build + 'public/css'
     },
 
     js: {
         src: [src + 'js/**/*.js'],
-        build: build + 'js'
+        build: build + 'public/js'
     },
 
     api: {
         src: [src + 'api/**/*.js'],
-        build: build + 'api',
-        buildName: 'api.js'
+        build: build,
+        buildName: 'index.js'
     }
 }
